@@ -2,8 +2,8 @@ name: Generate Briefing Image
 
 on:
   schedule:
-    - cron: '0 21 * * *'  # 매일 UTC 밤 9시 (한국 시간 오전 6시)
-  workflow_dispatch:      # 수동 실행 버튼(Run workflow)을 활성화하는 핵심 설정!
+    - cron: '0 21 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
